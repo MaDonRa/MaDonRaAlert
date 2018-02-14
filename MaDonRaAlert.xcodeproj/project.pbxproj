@@ -41,13 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F5383A601FE92D13001507E7 /* Asset */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Asset;
-			sourceTree = "<group>";
-		};
 		F5A644D71FE928570083A363 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +71,6 @@
 		F5A644FC1FE928B90083A363 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				F5383A601FE92D13001507E7 /* Asset */,
 				F5A644FD1FE928B90083A363 /* Setting.swift */,
 				F5A644FE1FE928B90083A363 /* Source */,
 				F5A645051FE928B90083A363 /* AlertViewDelegate.swift */,
@@ -330,6 +322,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MaDonRaAlert/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MaDonRa.MaDonRaAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -351,6 +344,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MaDonRaAlert/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MaDonRa.MaDonRaAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

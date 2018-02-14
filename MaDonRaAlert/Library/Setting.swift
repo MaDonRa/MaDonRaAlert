@@ -21,9 +21,10 @@ public enum Status {
     }
     
     var Image : UIImage? {
+        guard let bundle = Bundle(identifier: "org.cocoapods.MaDonRaAlert") else { return nil }
         switch self {
         case .Done :
-            return #imageLiteral(resourceName: "Done")
+            return UIImage(named: "Done", in: bundle, compatibleWith: nil)
         case .Error :
             return nil
         }
